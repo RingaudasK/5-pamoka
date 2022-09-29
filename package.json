@@ -1,0 +1,16 @@
+{
+  "name": "5-pamoka",
+  "version": "1.0.0",
+  "description": "404gifpage",
+  "main": "index.js",
+  "scripts": {
+    "dev":"dead-server --port=4005 --host=localhost",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "ringaudas",
+  "license": "ISC",
+  "devDependencies": {
+    "dead-server": "^1.0.6"
+  }
+}
