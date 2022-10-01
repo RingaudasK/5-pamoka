@@ -1,0 +1,19 @@
+body {
+    background-image: url(https://drive.google.com/file/d/1_8sTBXdIr1jWipuJUuMFf_ZV-7Kciia1/view?usp=drivesdk);
+    
+}
+header {
+    background-color: aqua;
+    width: 800px;
+    margin-left: calc(50% - 400px);
+}
+main {
+    background-color: blue;
+    width: 800px;
+    margin-left: calc((100% - 800px) / 2);
+}
+footer {
+    background-color: brown;
+    width: 800px;
+    margin-left: calc((100% - 800px) / 2);
+}
