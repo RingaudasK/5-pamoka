@@ -3,17 +3,81 @@ body {
     
 }
 header {
-    background-color: aqua;
+    background-color: rgb(255, 0, 140);
     width: 800px;
     margin-left: calc(50% - 400px);
+    display: inline-block;
+    
+}
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 15px;
+    justify-content: end;
+    
+
+}
+header > img {
+   display: flex;
+   justify-content:left;
+  
+   
+}
+.logo {
+    margin-top: 0px;
 }
 main {
     background-color: blue;
     width: 800px;
     margin-left: calc((100% - 800px) / 2);
+    display: inline-block;
+    
+}
+main > .topdiv > h1 {
+    font-size: 50px;
+}
+.htext {
+margin-bottom: 30px;
+margin-top: 0;
+}
+.number {
+    margin-bottom: 0%;
+}
+main > .ptop {
+    display: flex;
+    margin-top: 40px;
+    width: 300px;
+    
+    
+}
+main > .topdiv > p {
+    margin: 0%;
+    width: 300px;
+    
+}
+main > .bottomdiv > .spaceman {
+    width: 500px;
+    margin-top: 0%;
+    
+}
+.bottomdiv {
+float: right;
+display: flex;
+}
+.topdiv {
+display: inline-block;
+;
 }
 footer {
     background-color: brown;
     width: 800px;
     margin-left: calc((100% - 800px) / 2);
 }
+button {
+    margin: 0%;
+    border-radius:42px;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Arial;
+	padding:10px 31px;
