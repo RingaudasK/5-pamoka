@@ -1,21 +1,27 @@
 body {
     background-image: url(https://drive.google.com/file/d/1_8sTBXdIr1jWipuJUuMFf_ZV-7Kciia1/view?usp=drivesdk);
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
     
 }
 header {
-    background-color: rgb(255, 0, 140);
-    width: 800px;
+    
+    width: 820px;
     margin-left: calc(50% - 400px);
     display: inline-block;
-    
 }
-ul {
+header > ul {
     display: flex;
     list-style-type: none;
     gap: 15px;
-    justify-content: end;
+    float: right;
+    padding-right: 40px;
+    text-decoration: none;
     
 
+}
+a {
+    text-decoration: none;
+    color: black;
 }
 header > img {
    display: flex;
@@ -27,14 +33,14 @@ header > img {
     margin-top: 0px;
 }
 main {
-    background-color: blue;
-    width: 800px;
+    
+    width: 820px;
     margin-left: calc((100% - 800px) / 2);
     display: inline-block;
     
 }
 main > .topdiv > h1 {
-    font-size: 50px;
+    font-size: 40px;
 }
 .htext {
 margin-bottom: 30px;
@@ -46,14 +52,13 @@ margin-top: 0;
 main > .ptop {
     display: flex;
     margin-top: 40px;
-    width: 300px;
     
     
 }
 main > .topdiv > p {
     margin: 0%;
-    width: 300px;
-    
+    width: 320px;
+
 }
 main > .bottomdiv > .spaceman {
     width: 500px;
@@ -69,15 +74,26 @@ display: inline-block;
 ;
 }
 footer {
-    background-color: brown;
+    
     width: 800px;
     margin-left: calc((100% - 800px) / 2);
 }
 button {
-    margin: 0%;
+    margin-top: 40px;
     border-radius:42px;
 	display:inline-block;
 	cursor:pointer;
-	color:#000000;
-	font-family:Arial;
 	padding:10px 31px;
+    border-color: #61438F;
+}
+.first {
+    color: white;
+    background-color: #61438F;
+}
+footer {
+    display:inline-block;
+}
+.copy {
+    float: right;
+    font-size: small;
+}
