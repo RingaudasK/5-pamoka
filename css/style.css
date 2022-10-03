@@ -1,97 +1,84 @@
 body {
-    background-image: url(https://drive.google.com/file/d/1_8sTBXdIr1jWipuJUuMFf_ZV-7Kciia1/view?usp=drivesdk);
     font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
     
 }
-header {
-    
+/*HEADER*/
+.main-header {   
     width: 820px;
     margin-left: calc(50% - 400px);
     display: inline-block;
+    padding: 20px;
 }
-header > ul {
-    display: flex;
+.logo {
+    justify-content:left;
+    float: left;
+}
+.navlink  {  
     list-style-type: none;
     gap: 15px;
     float: right;
     padding-right: 40px;
-    text-decoration: none;
-    
-
-}
-a {
-    text-decoration: none;
+    text-decoration: none;  
     color: black;
+    font-size: 10px;
+    font-weight: 600;
 }
-header > img {
-   display: flex;
-   justify-content:left;
-  
-   
-}
-.logo {
-    margin-top: 0px;
-}
-main {
-    
+
+/*MAIN*/
+.main-main { 
     width: 820px;
     margin-left: calc((100% - 800px) / 2);
     display: inline-block;
-    
-}
-main > .topdiv > h1 {
-    font-size: 40px;
-}
-.htext {
-margin-bottom: 30px;
-margin-top: 0;
-}
-.number {
-    margin-bottom: 0%;
-}
-main > .ptop {
-    display: flex;
-    margin-top: 40px;
-    
-    
-}
-main > .topdiv > p {
-    margin: 0%;
-    width: 320px;
-
-}
-main > .bottomdiv > .spaceman {
-    width: 500px;
-    margin-top: 0%;
-    
-}
-.bottomdiv {
-float: right;
-display: flex;
 }
 .topdiv {
-display: inline-block;
-;
+    width: 320px;
+float: left;
 }
-footer {
-    
-    width: 800px;
-    margin-left: calc((100% - 800px) / 2);
+.main-p {
+    margin: 2px;
+    color: gray;
 }
-button {
+.topdiv > h1 {
+    font-size: 45px;
+    margin-top: 110px;
+    margin-bottom: 50px;
+}
+.number {
+    font-size: 65px;
+    font-weight: 300;
+    color: gray;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+.spaceman {
+ width: 500px;
+}
+.firstbtn ,
+.secondbtn {
     margin-top: 40px;
     border-radius:42px;
-	display:inline-block;
-	cursor:pointer;
-	padding:10px 31px;
+    cursor:pointer;
+    padding:10px 31px;
     border-color: #61438F;
 }
-.first {
+.firstbtn {
     color: white;
     background-color: #61438F;
 }
-footer {
+.secondbtn {
+    background-color: white;
+margin-left: 20px;
+}
+
+/*FOOTER*/
+.mainfooter {
+    width: 800px;
+    margin-left: calc((100% - 800px) / 2);
     display:inline-block;
+    margin-top: 30px;
+}
+.socials {
+    width: 140px;
 }
 .copy {
     float: right;
