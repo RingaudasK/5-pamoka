@@ -12,7 +12,7 @@ This project is for educational porpuses only. Pull request are welcome, but pri
 
 Site published at: https://ringaudask.github.io/5-pamoka/
 
-Design: https://dribbble.com/shots/5964475/attachments/5964475-404-Lost-in-Space
+Design: https://dribbble.com/shots/5964475-404-Lost-in-Space
 
 ## Project features
 

@@ -10,7 +10,6 @@ body {
     padding: 20px;
 }
 .logo {
-    justify-content:left;
     float: left;
 }
 .navlink  {  
@@ -32,23 +31,31 @@ body {
 }
 .topdiv {
     width: 320px;
-float: left;
+    float: left;
 }
 .main-p {
     margin: 2px;
     color: gray;
+    font-size: 13px;
 }
 .topdiv > h1 {
-    font-size: 45px;
+    font-size: 40px;
     margin-top: 110px;
-    margin-bottom: 50px;
+    font-weight: 900;
+    
+}
+h1::after {
+    content: "";
+    display: inline-block;
+    height: 5px;
+    width: 95px;
+    background-color: #554485;
+
 }
 .number {
     font-size: 65px;
-    font-weight: 300;
+    font-weight: 100;
     color: gray;
-    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
-
 }
 .spaceman {
  width: 500px;
@@ -60,6 +67,7 @@ float: left;
     cursor:pointer;
     padding:10px 31px;
     border-color: #61438F;
+    margin-bottom: 50px;
 }
 .firstbtn {
     color: white;
@@ -67,7 +75,7 @@ float: left;
 }
 .secondbtn {
     background-color: white;
-margin-left: 20px;
+    margin-left: 20px;
 }
 
 /*FOOTER*/
