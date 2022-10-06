@@ -85,10 +85,25 @@ h1::after {
     display:inline-block;
     margin-top: 30px;
 }
-.socials {
-    width: 140px;
-}
 .copy {
     float: right;
     font-size: small;
+}
+.socials > .link:hover {
+    background-color: #662c8c;
+    color: #fff;
+    border-radius: 50%;
+}
+.socials > .link {
+    height: 2em;
+    width: 2em;
+    float: left;
+    text-align: center;
+    font-size: 18px;
+    line-height: 2em;
+    color: #ccc;
+    text-decoration: none;
+}
+.socials {
+    float: left;
 }
